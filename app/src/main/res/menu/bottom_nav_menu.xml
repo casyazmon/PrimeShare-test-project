@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_folder_home"
+        android:title="Folders" />
+
+    <item
+        android:id="@+id/navigation_upload"
+        android:icon="@drawable/ic_folder_upload_24"
+        android:title="Upload" />
+
+    <item
+        android:id="@+id/navigation_file"
+        android:icon="@drawable/ic_file_open_24"
+        android:title="Open file" />
+ <!--   <item
+        android:id="@+id/navigation_download"
+        android:icon="@drawable/ic_file_open_24"
+        android:title="Open file" />-->
+
+</menu>
