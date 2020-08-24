@@ -16,6 +16,10 @@ public class FileUtils {
         return "https://mindorks.s3.ap-south-1.amazonaws.com/courses/MindOrks_Android_Online_Professional_Course-Syllabus.pdf";
     }
 
+    public static String getPDF(String url){
+        return url;
+    }
+
     public static String getPDFFromAssets(){
         return "MindOrks_Android_Online_Professional_Course-Syllabus.pdf";
     }

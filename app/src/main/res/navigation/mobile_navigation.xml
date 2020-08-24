@@ -24,7 +24,7 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/downloadFragment"
+        android:id="@+id/action_download"
         android:name="com.example.matchday.ui.download.DownloadFragment"
         android:label="fragment_download"
         tools:layout="@layout/fragment_download" />
