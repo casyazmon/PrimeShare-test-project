@@ -80,8 +80,8 @@ public class DownloadFragment extends Fragment {
                                 Toast.LENGTH_SHORT).show();
                         File downloadedFile = new File(dirPath, fileName);
                         progressBar.setVisibility(View.GONE);
-                        /*mDownloadBtn.setVisibility(View.GONE);
-                        mDownloadUrl.setVisibility(View.GONE);*/
+                        mDownloadBtn.setVisibility(View.INVISIBLE);
+                        mDownloadUrl.setVisibility(View.INVISIBLE);
                         showPDFFromFile(downloadedFile);
                     }
 
